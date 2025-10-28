@@ -18,7 +18,7 @@
         public DateTime ApplicationDate { get; set; }
 
         // Datum när man fick svar (kan vara null om man inte fått svar ännu)
-        public DateTime? ResponseDate { get; set; }  // <-- Den här raden är superviktig!
+        public DateTime? ResponseDate { get; set; } 
 
         // Löneförväntan i kronor
         public int SalaryExpectation { get; set; }
